@@ -20,21 +20,28 @@ $$f(x,y)=arcsin5\Big(1-2\Big(\frac{x-y}{x+y}\Big)^2\Big)$$, $$D_f=?$$
 \\[\text{1.1. slučaj }\\]
 \\[\text{$x\geq0$ $\quad$  i $\quad$    $y>-x$}\\]
 \\[\text{Slika 1.1}\\]
+![Slika-1.1](/assets/img/slika11.gif){:class="img-responsive po-sredini"}
 \\[\text{1.2. slučaj}\\]
 \\[\text{$x\leq0$ $\quad$  i $\quad$    $y \lt -x$}\\]
 \\[\text{Slika 1.2}\\]
+![Slika-1.2](/assets/img/slika12.gif){:class="img-responsive po-sredini"}
 \\[\text{ Riješenje slučaja 1. je unija slike 1.1 i slike 1.2, a to se vidi na sljedećoj slici.}\\]
 \\[\text{Slika 1}\\]
+![Slika-1](/assets/img/slika1.gif){:class="img-responsive po-sredini"}
 \\[\text{2. slučaj}\\]
 \\[\frac{x-y}{x+y}\leq1  \quad \text{...}\\]
 \\[\frac{y}{x+y}\geq0\\]
 \\[\text{2.1. slučaj}\\]
 \\[\text{$y\geq0$ $\quad$  i $\quad$    $y \gt -x$}\\]
 \\[\text{Slika 2.1}\\]
+![Slika-2.1](/assets/img/slika21.gif){:class="img-responsive po-sredini"}
 \\[\text{2.2. slučaj}\\]
 \\[\text{$y\leq0$ $\quad$  i $\quad$    $y \lt -x$}\\]
 \\[\text{Slika 2.2}\\]
+![Slika-2.2](/assets/img/slika22.gif){:class="img-responsive po-sredini"}
 \\[\text{Riješenje slučaja 2. je unija slike 2.1 i slike 2.2, a to se vidi na sljedećoj slici.}\\]
 \\[\text{Slika 2}\\]
+![Slika-2](/assets/img/slika2.gif){:class="img-responsive po-sredini"}
 \\[\text{Konačno riješenje je presjek 1. slučaja i 2. slučaja}\\]
 \\[\text{Slika}\\]
+![Slika](/assets/img/slika.gif){:class="img-responsive po-sredini"}
