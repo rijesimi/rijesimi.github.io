@@ -266,4 +266,6 @@ sup {
   font-size: smaller;
 }
 
-.po-sredini {margin: auto;}
+.po-sredini {
+    margin: auto;
+}
