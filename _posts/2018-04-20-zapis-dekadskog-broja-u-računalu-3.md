@@ -23,6 +23,8 @@ Sada moramo 142 prikazati u binarnom obliku.
 
 Ostatke čitamo od dolje prema gore i dobijemo da je dekadski $$142$$ jednak binarni $$10001110$$.
 
+Ne trebamo dodavati nikakve nulice jer imamo 8 bitova.
+
 Primjetimo da je na prvom (najteži bit) mjestu jedinica, a to znaći da je ovaj broj negativan.
 Jer znamo da negativni brojevi imaju na početku jednicu. To ćemo uzeti u obzir na kraju. 
 
@@ -32,7 +34,7 @@ Još ovo treba zbrojiti s $$1$$.
 
 \\[01110001 + 1 = 01110010\\]
 
-Sada $$01110010$$ treba prebaciti u dekadski broj isto kao u zadatku Zapis dekadskog broja u računalu 2.
+Ako traži zadatak dekadsko rješenje onda $$01110010$$ treba prebaciti u dekadski broj isto kao u zadatku Zapis dekadskog broja u računalu 2.
 
 \\[-0 \cdot 2^7 + 1 \cdot 2^6 + 1 \cdot 2^5 + 1 \cdot 2^4 + 0 \cdot 2^3 + 0 \cdot 2^2 + 1 \cdot 2^1 + 0 \cdot 2^0\\]
 \\[-0 + 64 + 32 + 16 + 0 + 0 + 2 + 0= 114\\]
