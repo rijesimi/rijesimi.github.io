@@ -27,9 +27,9 @@ Sad kad imamo eliptične koordinate i znamo granice možemo rješavati.
 \\[\int_{0}^{1} \,d\rho \int_{0}^{\pi} \frac{1-\rho^2 cos^2 \varphi-\rho^2 sin^2 \varphi}{1+\rho^2 cos^2 \varphi+\rho^2 sin^2 \varphi} \cdot \rho \,d\varphi\\]
 \\[\int_{0}^{1} \rho \,d\rho \int_{0}^{\pi} \frac{1-\rho^2}{1+\rho^2} \,d\varphi\\]
 \\[\int_{0}^{1} \rho \cdot \frac{1-\rho^2}{1+\rho^2} \,d\rho \cdot \int_{0}^{\pi} \,d\varphi\\]
-Uvodimo supstituciju $$\rho^2 = t$$, pa to deriviramo i dobijemo $$2 \rho \,d\rho = \,dt$$:
+Uvodimo supstituciju $$\rho^2 = t$$, pa to deriviramo i dobijemo $$2 \rho \,d\rho = \,dt$$
 
-I granice se mijenjaju pa imamo $$0 < \rho < 1 \quad$$ i $$\quad 0 < \varphi < 1$$.
+I granice se mijenjaju pa imamo $$0 < \rho < 1 \quad$$ i $$\quad 0 < \varphi < 1$$
 
 \\[\frac{1}{2}\int_{0}^{1} \frac{1-t}{1+t} \,dt \cdot \Big(\varphi\Big\vert_{0}^{\pi}\\]
 \\[\frac{1}{2}\int_{0}^{1} \frac{1+t-2t}{1+t} \,dt \cdot \pi\\]
