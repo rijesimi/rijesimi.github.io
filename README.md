@@ -2,6 +2,9 @@
 
 > #### *Lagom* is a Swedish word with no direct English equivalent, meaning "just the right amount"
 
+To start jekyll server on C9 type this
+*jekyll serve --host $IP --port $PORT --baseurl ''
+
 Lagom, a [Jekyll][j] blog theme with just the right amount of style. 
 
 Extracted lovingly from [http://mdswanson.com][mds] for your enjoyment!
