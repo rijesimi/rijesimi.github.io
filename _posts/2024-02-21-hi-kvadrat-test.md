@@ -14,3 +14,18 @@ Pretpostavimo da smo ispitali 74 učenika o tome koliko slobodnih aktivnosti ima
 
 Pogledajmo sliku Excela.
 ![hikvadrat1](/assets/img/hikvadrat1.GIF){:class="img-responsive po-sredini"}
+
+## R jezik
+`# radimo tablicu
+M <- as.table(rbind(c(8, 10), c(4, 12), c(10, 3), c(21, 6)))
+
+\# dajemo imena redovima i stupcima
+dimnames(M) <- list(aktivnosti = c("1akt", "2akt", "3akt", "više od 3"),
+                    razred = c("drugi","četvrti"))
+
+\# kako izgleda kontingencijska tablica?
+(M)
+
+\# rezultat testa. Dalje s varijablom hi možemo dodatne stvari raditi
+(hi <- chisq.test(M))
+`
