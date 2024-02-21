@@ -12,9 +12,22 @@ EXCEL
 2. Izračunamo kontingencijsku tablicu očekivanih frekvencija.
 3. Koristimo Excel funkciju `CHISQ.TEST raspon opaženih frekvencija raspon očekivanih frekvencija` da dobijemo p-vrijednost testa.
 
-![hikvadrat1](/assets/img/hikvadrat1.GIF){:class="img-responsive po-sredini"}
+![hikvadrat](/assets/img/hikvadrat.PNG){:class="img-responsive po-sredini"}
 
 R jezik
-1. radimo tablicu
+1. Radimo tablicu
+
 `M <- as.table(rbind(c(8, 10), c(4, 12), c(10, 3), c(21, 6)))`
 
+2. Dajemo imena redovima i stupcima
+
+`dimnames(M) <- list(aktivnosti = c("1akt", "2akt", "3akt", "više od 3"),
+                    razred = c("drugi","četvrti"))`
+
+3. Kako izgleda kontingencijska tablica?
+
+`(M)`
+
+4. Rezultat testa. Dalje s varijablom hi možemo dodatne stvari raditi.
+
+`(hi <- chisq.test(M))`
