@@ -15,7 +15,7 @@ Pretpostavimo da smo ispitali 74 učenika o tome koliko slobodnih aktivnosti ima
 Pogledajmo sliku Excela.
 ![hikvadrat1](/assets/img/hikvadrat1.GIF){:class="img-responsive po-sredini"}
 
-## R jezik
+R jezik
 `# radimo tablicu
 M <- as.table(rbind(c(8, 10), c(4, 12), c(10, 3), c(21, 6)))
 
